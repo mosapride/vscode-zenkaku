@@ -1,0 +1,40 @@
+{
+    "name": "zenkaku",
+    "displayName": "zenkaku",
+    "description": "show double-byte-whiteSpace",
+    "version": "0.0.1",
+    "publisher": "mosapride",
+        "keywords": [
+        "whitespace"
+    ],
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.enableZenkaku"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.enableZenkaku",
+            "title": "Enable Zenkaku"
+        },{
+            "command": "extension.disableZenkaku",
+            "title": "Disable Zenkaku"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "eslint": "^3.6.0",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
