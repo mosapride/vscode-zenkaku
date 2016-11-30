@@ -2,9 +2,9 @@
     "name": "zenkaku",
     "displayName": "zenkaku",
     "description": "show double-byte-whiteSpace",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "mosapride",
-        "keywords": [
+    "keywords": [
         "whitespace",
         "double-byte white space",
         "zenkaku"
@@ -18,13 +18,13 @@
     "activationEvents": [
         "*"
     ],
-    "icon":"images/Icon.png",
+    "icon": "images/Icon.png",
     "main": "./extension",
     "contributes": {
         "commands": [{
             "command": "extension.enableZenkaku",
             "title": "Enable Zenkaku"
-        },{
+        }, {
             "command": "extension.disableZenkaku",
             "title": "Disable Zenkaku"
         }]

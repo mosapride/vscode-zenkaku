@@ -13,6 +13,9 @@ no work this plugin
 
 [GitHub](https://github.com/mosapride/vscode-zenkaku).
 
+## What's New in 0.0.3
+Changed to character code - Mac compatible
+
 ## What's New in 0.0.2
 Default Setting is "Enable Zenkaku".
 
