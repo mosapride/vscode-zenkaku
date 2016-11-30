@@ -67,7 +67,7 @@ function activate(context) {
 
             if (whitespaceDecorationSpace == null) { whitespaceDecorationSpace = vscode.window.createTextEditorDecorationType(appearanceSpace); }
 
-            var regExSpace = /　/g;
+            var regExSpace = /\u3000/g;
             var text = activeEditor.document.getText();
             var whitespaceSpaceChars = [];
 
@@ -91,8 +91,10 @@ function activate(context) {
     context.subscriptions.push(disposable2);
 
     function cleanDecorations() {
-        if (whitespaceDecorationSpace != null) { whitespaceDecorationSpace.dispose();
-            whitespaceDecorationSpace = null; }
+        if (whitespaceDecorationSpace != null) {
+            whitespaceDecorationSpace.dispose();
+            whitespaceDecorationSpace = null;
+        }
     }
 }
 exports.activate = activate;
