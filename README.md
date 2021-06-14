@@ -1,8 +1,19 @@
 ## Zenkaku
+
+全角スペースを表示するよ！
+
 This extension visibly marks zenkaku-Space(double-byte-whitespace) in the active document.  
 work by vscode
 
 ![zenkaku](https://github.com/mosapride/vscode-zenkaku/blob/images/readme01.png?raw=true "sample")
+
+## install
+
+https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku
+
+**VS Code needs to be restarted.**
+
+インストール後、VSCodeの再起動が必要です。
 
 ## Command
 
