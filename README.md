@@ -1,5 +1,14 @@
 ## Zenkaku
 
+### 補足？
+![Unicode highlighting improvements](https://code.visualstudio.com/updates/v1_64#_unicode-highlighting-improvements)
+
+コードでは標準で全角スペースが表示されるようになったようです。
+
+markdown等では、VS Code標準機能は機能しないため、念のために入れておくぐらいの感覚がよいかもしれません。
+
+---
+
 全角スペースを表示するよ！
 
 This extension visibly marks zenkaku-Space(double-byte-whitespace) in the active document.  
