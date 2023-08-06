@@ -1,9 +1,8 @@
 ## Zenkaku
 
 ### 補足？
-![Unicode highlighting improvements](https://code.visualstudio.com/updates/v1_64#_unicode-highlighting-improvements)
 
-コードでは標準で全角スペースが表示されるようになったようです。
+標準で全角スペースが表示されるようになったようです。[Unicode highlighting improvements](https://code.visualstudio.com/updates/v1_64#_unicode-highlighting-improvements)
 
 markdown等では、VS Code標準機能は機能しないため、念のために入れておくぐらいの感覚がよいかもしれません。
 
